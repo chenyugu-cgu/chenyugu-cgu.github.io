@@ -13,20 +13,21 @@ title                    : "Chenyu Gu"
 title_separator          : "-"
 name                     : &name "Chenyu Gu"
 description              : &description "Chenyu Gu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://chenyugu-cgu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://chenyugu-cgu.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chenyugu-cgu/chenyugu-cgu.github.io"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile-chenyu.png"
-  name             : "Your Sidebar Name"
+  avatar           : "profile-chenyu-resized.png"
+  name             : "Chenyu Gu"
   pronouns         : "he/him"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "An engineer student with a deep fascination for technology."
   location         : "Atlanta, US"
   employer         : "Georgia Institute of Technology"
   uri              : # URL
@@ -87,6 +88,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  patents:
+    title: 'Patents'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -94,7 +97,7 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+talkmap_link             : true      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -230,6 +233,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -243,7 +252,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -259,7 +268,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _publications
   - scope:
@@ -268,7 +277,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -277,7 +286,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
@@ -286,7 +295,29 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
 
 
 # Sass/SCSS
@@ -310,7 +341,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
@@ -356,3 +389,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Enable search
+search: true                # shows the search icon/box in the masthead
+search_provider: lunr       # built-in, no external service needed
+search_full_content: true   # (optional) index full page/post content
