@@ -26,47 +26,50 @@ Hi, I am **Chenyu Gu**, currently a Master student at **Georgia Institute of Tec
 ## Selected Projects 🤖
 
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px;">
-  <div style="flex: 0 0 200px;">
-    <img src="http://placekitten.com/200/150" alt="Project Name" style="width: 100%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <div style="flex: 0 0 40%;">
+    <img src="/images/projects/hydro_showcase.png" alt="Project Name" style="width: 100%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </div>
-  <div>
+
+  <div style="flex: 0 0 60%;">
+    <h3 style="margin-top: 0;">
+      <a href="/projects/hydro">Design and Modeling of a Hydraulic Continuum Robot</a>
+    </h3>
+    <p>
+      We designed and modeled a hydraulic actutated polymer-based continuum robot for minimal invasive surgery. We manufacture the robot with a hydraulic actuator and an outer polymer-based sheath. A demonstration under a 2D phantom shows its potential under minmal invasive surgery.
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px;">
+  <div style="flex: 0 0 40%; ">
+    <img src="/images/projects/DAA_showcase.png" alt="Project Name" style="width: 100%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+
+  <div style="flex: 0 0 60%;">
     <h3 style="margin-top: 0;">
       <a href="/publication/2025-03-06-INS">Inertial Navigation System for Total Hip Arthroplasty</a>
     </h3>
     <p>
-      For Total Hip Arthroplasty via Direct Anterior Approach, two target anlges RA and RI are crucially important for the success of the surgery. However, surgeons currently use radiographics methods such as X-ray to determine those two angles, which will result in servere radio exposure to both the patients and the surgeons. To solve this problem, we designed a inertial-based navigation system including two sensor modules enabling wireless navigation and real-time visualization. 
+      In direct anterior total hip arthroplasty, accurate RA and RI angles are essential but are typically determined using X-ray, causing radiation exposure. We developed a wireless inertial-based navigation system with real-time visualization to eliminate this need.
     </p>
   </div>
 </div>
 
 <div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px;">
-  <div style="flex: 0 0 200px;">
-    <img src="/images/bio-photo-2.jpg" alt="Project Name" style="width: 100%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <div style="flex: 0 0 40%;">
+    <img src="/images/projects/dip_showcase.png" alt="Project Name" style="width: 100%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </div>
-  <div>
+
+  <div style="flex: 0 0 60%;">
     <h3 style="margin-top: 0;">
-      <a href="/research/confidentialresearch">Design and Modeling of a Hydraulic Continuum Robot</a>
+      <a href="/projects/dip">Deep Learning Framework for Motion Reconstruction</a>
     </h3>
     <p>
-      We designed a hydraulic actutated polymer-based continuum robot for minimal invasive surgery. We manufacture the robot with a hydraulic actuator and an outer polymer-based sheath. We utilized a Preisach hysteresis model to model the tip deflection versus the input force. A demonstration under a 2D phantom shows its potential under minmal invasive surgery.
+      We developed a deep learning framework to reconstruct 3D human motion from sparse IMU data and UWB localization signal. The framework leverages temporal recurrent neural networks to capture motion dynamics, achieving high accuracy in motion reconstruction for applications in biomechanics and virtual reality.
     </p>
   </div>
 </div>
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px;">
-  <div style="flex: 0 0 200px;">
-    <img src="/images/bio-photo-2.jpg" alt="Project Name" style="width: 100%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </div>
-  <div>
-    <h3 style="margin-top: 0;">
-      <a href="/research/testresearch">Deep Learning Framework for Motion Reconstruction</a>
-    </h3>
-    <p>
-      We designed a hydraulic actutated polymer-based continuum robot for minimal invasive surgery. We manufacture the robot with a hydraulic actuator and an outer polymer-based sheath. We utilized a Preisach hysteresis model to model the tip deflection versus the input force. A demonstration under a 2D phantom shows its potential under minmal invasive surgery.
-    </p>
-  </div>
-</div>
-
-<iframe src="https://www.google.com/maps/d/embed?mid=1HyGwvxldlDjMGi4-ZjNdWnWqp5bZW5A&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1HyGwvxldlDjMGi4-ZjNdWnWqp5bZW5A&hl=en&ehbc=2E312F" width="640" height="480"></iframe> -->
 
 
