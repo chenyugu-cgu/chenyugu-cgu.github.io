@@ -3,7 +3,7 @@ title: "IMU-based motion capture system for rehabilitation applications: A syste
 collection: publications
 category: manuscripts
 permalink: /publication/2023-02-27-IMU-review
-excerpt: 'This paper is a systematic review of inertial measurement unit (IMU)-based motion capture systems applied to rehabilitation, summarizing their designs, applications, and challenges.  ￼'
+excerpt: ''
 date: 2023-02-27
 venue: 'Biomimetic Intelligence and Robotics'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
