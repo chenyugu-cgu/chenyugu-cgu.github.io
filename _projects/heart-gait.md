@@ -1,6 +1,6 @@
 ---
 title: "Interaction between Heart and Movement: Gait Analysis with Single IMU"
-excerpt: "Investigating the physiological synergy between the cardiac and locomotor systems using a single chest-mounted Inertial Measurement Unit (IMU). <br/><img src='/images/projects/heart_gait/concept_overview.png' width='500'>"
+excerpt: "Investigating the physiological synergy between the cardiac and locomotor systems using a single chest-mounted Inertial Measurement Unit (IMU). <br/><img src='/images/projects/heart_gait/synergy_concept.png' width='500'>"
 permalink: /projects/heart-gait
 collection: projects
 published: true
