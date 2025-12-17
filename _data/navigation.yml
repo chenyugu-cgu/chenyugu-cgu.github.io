@@ -29,11 +29,11 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  # - title: "CV"
-  #   url: /cv/
+  - title: "CV"
+    url: /cv/
 
-  # - title: "Search"
-  #   url: /search/
+  - title: "Search"
+    url: /search/
     
   # - title: "CV"
   #   url: /cv-json/

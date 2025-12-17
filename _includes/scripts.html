@@ -1,6 +1,18 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
+{%- comment -%}
+Ensure dependencies load before theme/search scripts.
+AcademicPages/Lunr scripts expect jQuery ($) in the global scope.
+{%- endcomment -%}
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+<script src="{{ '/assets/js/plugins/jquery.greedy-navigation.js' | relative_url }}"></script>
 
 {% include analytics.html %}
+
 {% if site.search == true and site.search_provider == "lunr" %}
 {% include_cached search/lunr-search-scripts.html %}
 {% endif %}
+
+{%- comment -%}
+Load the theme JS last. If your current main.min.js contains ES module `import` statements,
+Safari will throw a syntax error unless it is loaded as a module.
+{%- endcomment -%}
+<script type="module" src="{{ '/assets/js/main.min.js' | relative_url }}"></script>

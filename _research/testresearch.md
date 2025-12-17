@@ -4,6 +4,7 @@ collection: research
 category: manuscripts
 permalink: /research/testresearch/
 excerpt: 'This paper is a systematic review of inertial measurement unit (IMU)-based motion capture systems applied to rehabilitation, summarizing their designs, applications, and challenges.  ￼'
+published: false
 # date: 2023-02-27
 ---
 ![The proportion of each classification.](https://ars.els-cdn.com/content/image/1-s2.0-S2667379723000116-gr2.jpg)

@@ -47,7 +47,7 @@ Hi, I am **Chenyu Gu**, currently a Master student at **Georgia Institute of Tec
 
   <div style="flex: 0 0 60%;">
     <h3 style="margin-top: 0;">
-      <a href="/publication/2025-03-06-INS">Inertial Navigation System for Total Hip Arthroplasty</a>
+      <a href="/projects/ins">Inertial Navigation System for Total Hip Arthroplasty</a>
     </h3>
     <p>
       In direct anterior total hip arthroplasty, accurate RA and RI angles are essential but are typically determined using X-ray, causing radiation exposure. We developed a wireless inertial-based navigation system with real-time visualization to eliminate this need.
@@ -70,6 +70,75 @@ Hi, I am **Chenyu Gu**, currently a Master student at **Georgia Institute of Tec
   </div>
 </div>
 
-<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1HyGwvxldlDjMGi4-ZjNdWnWqp5bZW5A&hl=en&ehbc=2E312F" width="640" height="480"></iframe> -->
+
+<!-- ## Project Gallery 🎞️ -->
+
+<!-- add a negative margin here -->
+<div style="margin-top: -50px;">
+  <!-- content -->
+</div>
+
+<style>
+  /* Simple, dependency-free swipe gallery (horizontal scroll + snap) */
+  .demo-gallery {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 8px 4px 14px 4px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  .demo-gallery::-webkit-scrollbar { height: 10px; }
+  .demo-gallery::-webkit-scrollbar-thumb { border-radius: 999px; }
+
+  .demo-card {
+    flex: 0 0 78%;
+    max-width: 78%;
+    scroll-snap-align: start;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    background: #fff;
+  }
+
+  /* Wider screens: show more cards */
+  @media (min-width: 900px) {
+    .demo-card { flex-basis: 40%; max-width: 40%; }
+  }
+
+  .demo-media {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .demo-card a { display: block; }
+  .demo-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+  }
+  .demo-card { transition: transform 0.15s ease, box-shadow 0.15s ease; }
+</style>
+
+<!-- <div class="demo-gallery" aria-label="Project demo gallery">
+  <figure class="demo-card">
+    <a href="/projects/hydro" aria-label="Hydraulic Continuum Robot">
+      <img class="demo-media" src="/images/gifs/nyan-cat.gif.avif" alt="Hydraulic continuum robot demo" loading="lazy" />
+    </a>
+  </figure>
+
+  <figure class="demo-card">
+    <a href="/publication/2025-03-06-INS" aria-label="Inertial Navigation System">
+      <img class="demo-media" src="/images/gifs/nyan-cat.gif.avif" alt="Inertial navigation system demo" loading="lazy" />
+    </a>
+  </figure>
+
+  <figure class="demo-card">
+    <a href="/projects/dip" aria-label="Motion Reconstruction Project">
+      <img class="demo-media" src="/images/gifs/nyan-cat.gif.avif" alt="Deep learning motion reconstruction demo" loading="lazy" />
+    </a>
+  </figure>
+</div> -->
+
 
 

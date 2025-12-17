@@ -31,7 +31,7 @@ author:
   location         : "Atlanta, US"
   employer         : "Georgia Institute of Technology"
   uri              : # URL
-  email            : "chenyugu-cgu@gmail.com" 
+  email            : "jokerchyen@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -39,7 +39,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=33-rCJsAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/"
+  orcid            : "https://orcid.org/0000-0002-5191-0405"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -49,7 +49,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "chenyugu-cgu"
+  github           : "ChyenGCY"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -155,7 +155,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -250,10 +250,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: false
-      related: true
+      related: false
   # _pages
   - scope:
       path: ""
@@ -314,10 +314,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: false
-      related: true
+      related: false
 
 
 # Sass/SCSS

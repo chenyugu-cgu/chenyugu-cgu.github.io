@@ -3,6 +3,7 @@ title: "Confidential Research"
 collection: portfolio
 sitemap: false
 search: false
+published: false
 ---
 
 <div id="login-area">
