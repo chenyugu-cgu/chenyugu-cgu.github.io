@@ -51,6 +51,11 @@ The core challenge is extracting precise orientation and gait events from a nois
 * **Orientation Estimation:** We implement sensor fusion algorithms to process raw acceleration and gyroscope data, estimating the 3D orientation of the torso.
 * **Parameter Extraction:** By analyzing the vertical acceleration peaks and trunk rotation, the system detects **Heel Strikes (HS)** and calculates step cadence.
 
+<div style="text-align: center;">
+    <img src="/images/projects/heart_gait/algorithm_flow.png" alt="Algorithm Flowchart" width="85%" style="border-radius: 5px; box-shadow: 0px 0px 10px #ccc;">
+    <p><em>Fig 3: Filter design.</em></p>
+</div>
+
 ## Experimental Workflow
 
 Experiments were conducted in a corridor environment involving natural walking tasks.
@@ -58,13 +63,59 @@ Experiments were conducted in a corridor environment involving natural walking t
 2.  **Protocol:** The subject walks back and forth at a normal speed.
 3.  **Analysis:** The data is processed to visualize the gait cycle and overlay it with cardiac timing (derived from heart rate monitoring).
 
+
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-top: 20px;">
+    <div style="flex: 1; text-align: center; min-width: 300px;">
+        <img src="/images/projects/heart_gait/results1.png" alt="IMU Chest Placement" width="90%" style="border-radius: 5px;">
+        <!-- <p><em>Single-IMU Chest Placement</em></p> -->
+    </div>
+    <div style="flex: 1; text-align: center; min-width: 300px;">
+        <img src="/images/projects/heart_gait/results2.png" alt="Raw IMU Signals" width="90%" style="border-radius: 5px;">
+        <!-- <p><em>Raw Accelerometer & Gyroscope Data</em></p> -->
+    </div>
+</div>
 <div style="text-align: center;">
-    <img src="/images/projects/heart_gait/algorithm_flow.png" alt="Algorithm Flowchart" width="85%" style="border-radius: 5px; box-shadow: 0px 0px 10px #ccc;">
-    <p><em>Fig 3: Data processing pipeline from raw signal acquisition to orientation estimation and parameter extraction.</em></p>
+<p><em>Fig 4: Results.</em></p>
+</div>
+<!-- <div style="text-align: center;">
+    <img src="/images/projects/heart_gait/results.png" alt="Results" width="85%" style="border-radius: 5px; box-shadow: 0px 0px 10px #ccc;">
+    <p><em>Fig 4: Results.</em></p>
+</div> -->
+
+## Demo Video
+
+<!-- <div style="display: flex; align-items: center;">
+    <div style="flex: 0 0 76%; text-align: center;">
+      <video width="98%" controls>
+          <source src="/videos/heart-gait_demo1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+    </div>
+    <div style="flex: 0 0 24%; text-align: center;">
+      <video width="98%" controls>
+          <source src="/videos/dip_demo2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+    </div>
+</div> -->
+
+<div style="text-align: center;">
+    <video width="80%" controls>
+        <source src="/videos/heart-gait_demo1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- <p><em>Real-time visualization of cup orientation during model simulation.</em></p> -->
+</div>
+<div style="text-align: center;">
+    <video width="80%" controls>
+        <source src="/videos/heart-gait_demo2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- <p><em>Real-time visualization of cup orientation during model simulation.</em></p> -->
 </div>
 
 ## Future Directions
 
-This framework establishes the baseline for "Hear-Gait" interaction studies. Future work involves:
+This framework establishes the baseline for "Heart-Gait" interaction studies. Future work involves:
 * Integrating ECG data to precisely timestamp R-peaks relative to heel strikes.
 * Testing biofeedback mechanisms to encourage "Diastolic Stepping" for improved athletic performance or cardiac rehabilitation.
