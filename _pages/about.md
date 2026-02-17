@@ -19,6 +19,8 @@ Hi, I am **Chenyu Gu**, currently a Master student at **Georgia Institute of Tec
 
 ## News & Updates 🎉
 
+<!-- * **[Nov 2025]** My paper on Continuum Robotics was submitted to ISMR 2026! -->
+* **[Feb 2026]** My paper on Continuum Robotics was accepted to ISMR 2026 and received best student paper award finalist!
 * **[Nov 2025]** My paper on Continuum Robotics was submitted to ISMR 2026!
 * **[Aug 2024]** Started my Master's program at Georgia Tech.
 * **[Jun 2024]** Graduated from Southern University of Science and Technology with a Bachelor's degree in Intelligent Medical Engineering.

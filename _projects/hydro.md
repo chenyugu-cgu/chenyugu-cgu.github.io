@@ -3,7 +3,7 @@ title: "Design and Modeling of a Polymer-based Hydraulic Continuum Robot"
 excerpt: "A 2.14 mm OD hydraulically actuated soft robot designed for minimally invasive surgery, featuring a novel routing design to minimize twisting and hysteresis modeling for precise control. <br/><img src='/images/projects/hydro/robot_design.png' width='500'>"
 permalink: /projects/hydro
 collection: projects
-published: false
+published: true
 # venue: "2026 International Symposium on Medical Robotics (ISMR)"
 # date: 2026-04-01
 ---
