@@ -23,7 +23,7 @@ redirect_from:
 ## Education
 
 **Georgia Institute of Technology** — Atlanta, United States  
-*M.S. in Bioengineering (ECE); GPA: 4.00/4.00* (Aug 2024 – Present)  
+*M.S. in Bioengineering (ECE); GPA: 4.00/4.00* (Aug 2024 – May 2026)  
 - Relevant coursework: Digital Control System, Finite Element Analysis.
 - Advisor: Dr. Jaydev Desai
 - Thesis: Design, modeling, and control of a polymer-based continuum robot
@@ -41,7 +41,7 @@ redirect_from:
 
 ## Publications & Patents
 
-- C. Gu, T. A. Brumfiel, N. Malhotra, and J. P. Desai, “Design and Modeling of a Polymer-based Hydraulic Continuum Robot for Minimal Invasive Surgery,” *International Symposium on Medical Robotics (ISMR)*, 2026. *(Accepted — Best Student Paper Award Finalist)*
+- C. Gu, T. A. Brumfiel, N. Malhotra, and J. P. Desai, “Design and Modeling of a Polymer-based Hydraulic Continuum Robot for Minimal Invasive Surgery,” *International Symposium on Medical Robotics (ISMR)*, 2026. *(Best Student Paper Award)*
 - Chenyu Gu, Weicong Lin, Xinyi He, Lei Zhang, Mingming Zhang, “IMU-based motion capture system for rehabilitation applications: A systematic review,” *Biomimetic Intelligence and Robotics*, vol. 3, no. 2, p. 100097, 2023. DOI: 10.1016/j.birob.2023.100097. *(Annual Best Paper Award; IF: 5.4)*
 - Chenyu Gu, Yangyi Yu, Xinyi He, Lei Zhang, Zhen Xi, Yudong Liu, Guangheng Li, and Mingming Zhang, “A Portable Inertial Navigation System for Total Hip Arthroplasty Targeting Direct Anterior Approach,” *IEEE Transactions on Instrumentation and Measurement*, doi: 10.1109/TIM.2025.3548784. *(IF: 5.9)*
 - Guangheng Li, Mingming Zhang, Yangyi Yu, and Chenyu Gu. *A joint replacement simulation device and a joint replacement simulation method.* China CN118634071A, filed July 9, 2024, issued September 13, 2024.
@@ -107,7 +107,7 @@ redirect_from:
 
 ## Awards & Achievements
 
-- International Symposium on Medical Robotics (ISMR) Best Student Paper Award — Finalist (2026)
+- International Symposium on Medical Robotics (ISMR) Best Student Paper Award (2026)
 - Biomimetic Intelligence and Robotics Annual Best Paper Award (2024)
 - Excellent Graduation Thesis Award (Top 10) (Jul 2024)
 - Outstanding Student Scholarship of Zhicheng College (2021, 2022, 2023)
