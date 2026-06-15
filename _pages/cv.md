@@ -41,7 +41,7 @@ redirect_from:
 
 ## Publications & Patents
 
-- C. Gu, T. A. Brumfiel, N. Malhotra, and J. P. Desai, “Design and Modeling of a Polymer-based Hydraulic Continuum Robot for Minimal Invasive Surgery,” *International Symposium on Medical Robotics (ISMR)*, 2026. *(Accepted — Best Student Paper Award Finalist)*
+- C. Gu, T. A. Brumfiel, N. Malhotra, and J. P. Desai, “Design and Modeling of a Polymer-based Hydraulic Continuum Robot for Minimal Invasive Surgery,” *International Symposium on Medical Robotics (ISMR)*, 2026. *(Under review)*
 - Chenyu Gu, Weicong Lin, Xinyi He, Lei Zhang, Mingming Zhang, “IMU-based motion capture system for rehabilitation applications: A systematic review,” *Biomimetic Intelligence and Robotics*, vol. 3, no. 2, p. 100097, 2023. DOI: 10.1016/j.birob.2023.100097. *(Annual Best Paper Award; IF: 5.4)*
 - Chenyu Gu, Yangyi Yu, Xinyi He, Lei Zhang, Zhen Xi, Yudong Liu, Guangheng Li, and Mingming Zhang, “A Portable Inertial Navigation System for Total Hip Arthroplasty Targeting Direct Anterior Approach,” *IEEE Transactions on Instrumentation and Measurement*, doi: 10.1109/TIM.2025.3548784. *(IF: 5.9)*
 - Guangheng Li, Mingming Zhang, Yangyi Yu, and Chenyu Gu. *A joint replacement simulation device and a joint replacement simulation method.* China CN118634071A, filed July 9, 2024, issued September 13, 2024.
@@ -54,7 +54,7 @@ redirect_from:
 *Skills: CAD Modeling, Robotics Modeling & Control*
 - Develop and manufacture a polymer-based hydraulic robotic system for non-conductive, MRI safe environment.
 - Formulate the physical model for the hydraulic robot and refine it with a data-driven hysteresis model.
-- Implement model-based open-loop control and integrate shape-sensing methods for closed-loop control.
+- Implement position feedback for accurate control and compare the inverse model control with PID control.
 - Conduct experiments to characterize and validate the system, and demonstrate it under a vascular model.
 
 **Mechanism and actuation design of COAST Guidewire Robot** — Atlanta, United States  
@@ -91,9 +91,9 @@ redirect_from:
 ## Working & Teaching Experience
 
 **Graduate Teaching Assistant at Georgia Tech** — Atlanta, United States  
-*GTA for Machine Learning (CS 7641)* (Aug 2025 – May 2026)
-- Organize weekly office hours and review sessions to clarify machine learning concepts and help students succeed in the course.
-- Review homework and projects to guide and correct misunderstandings for 300+ graduate students.
+*GTA for Machine Learning (CS 7641)* (Fall 2025)
+- Organized weekly office hours and review sessions to clarify concepts in machine learning.
+- Reviewed homework and projects to guide and correct misunderstandings for 300+ graduate students.
 
 **Department of Orthopedics, First People’s Hospital** — Shenzhen, China  
 *Research Assistant* (Jun 2023 – Aug 2023)
@@ -107,10 +107,8 @@ redirect_from:
 
 ## Awards & Achievements
 
-- International Symposium on Medical Robotics (ISMR) Best Student Paper Award — Finalist (2026)
 - Biomimetic Intelligence and Robotics Annual Best Paper Award (2024)
 - Excellent Graduation Thesis Award (Top 10) (Jul 2024)
-- Outstanding Student Scholarship of Zhicheng College (2021, 2022, 2023)
 - “Internet Plus” Innovation and Entrepreneurship Competition (Aug 2023; Jul 2022)
 - Excellent Team of “Sycamore Tree” Competition (May 2022)
 - RoboMaster 2021 Robotics Mecha Master Super Competition (First Prize) (Sep 2021)
