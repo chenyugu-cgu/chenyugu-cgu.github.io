@@ -20,8 +20,11 @@ Hi, I am **Chenyu Gu**, currently a Master student at **Georgia Institute of Tec
 ## News & Updates 🎉
 
 <!-- * **[Nov 2025]** My paper on Continuum Robotics was submitted to ISMR 2026! -->
-* **[Feb 2026]** My paper on Continuum Robotics was accepted to ISMR 2026 and received best student paper award finalist!
-* **[Nov 2025]** My paper on Continuum Robotics was submitted to ISMR 2026!
+* **[Feb 2026]** My paper on continuum robotics was accepted to ISMR 2026 and named a **Best Student Paper Award Finalist**! 🏆
+* **[Nov 2025]** My paper on continuum robotics was submitted to ISMR 2026!
+* **[Aug 2025]** Started as a Graduate Teaching Assistant for *Machine Learning (CS 7641)* at Georgia Tech.
+* **[Jul 2025]** Joined the COAST guidewire robot project and led K–12 outreach as a Georgia Tech CEISMC summer program leader.
+* **[Mar 2025]** Our paper on a portable inertial navigation system for total hip arthroplasty was published in *IEEE Transactions on Instrumentation and Measurement*.
 * **[Aug 2024]** Started my Master's program at Georgia Tech.
 * **[Jun 2024]** Graduated from Southern University of Science and Technology with a Bachelor's degree in Intelligent Medical Engineering.
 

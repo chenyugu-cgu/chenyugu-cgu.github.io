@@ -1,152 +1,246 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Chenyu Gu",
+    "label": "M.S. in Bioengineering, Georgia Institute of Technology",
+    "email": "cgu84@gatech.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://chenyugu-cgu.github.io",
+    "summary": "M.S. student in Bioengineering at Georgia Tech (RoboMed Lab, advised by Dr. Jaydev Desai), working on the design, modeling, and control of medical continuum robots. My research spans medical and bio-robotics, surgical navigation and medical devices, and biomechanical/physiological sensing.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Atlanta",
       "countryCode": "US",
-      "region": ""
+      "region": "GA"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Chenyu Gu",
+        "url": "https://scholar.google.com/citations?user=33-rCJsAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "username": "0000-0002-5191-0405",
+        "url": "https://orcid.org/0000-0002-5191-0405"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "ChyenGCY",
+        "url": "https://github.com/ChyenGCY"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "position": "Project Leader — Hydraulic Continuum Robot",
+      "company": "RoboMed Lab, Georgia Institute of Technology",
+      "startDate": "Oct 2024",
+      "endDate": "Present",
+      "summary": "Design, modeling, and control of a hydraulically actuated continuum robot.",
+      "highlights": [
+        "Developed and manufactured a polymer-based hydraulic robotic system for non-conductive, MRI-safe environments.",
+        "Formulated the physical model of the hydraulic robot and refined it with a data-driven hysteresis model.",
+        "Implemented model-based open-loop control and integrated shape-sensing methods for closed-loop control.",
+        "Characterized and validated the system experimentally and demonstrated it in a vascular phantom model."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "position": "Project Assistant — COAST Guidewire Robot",
+      "company": "RoboMed Lab, Georgia Institute of Technology",
+      "startDate": "Jul 2025",
+      "endDate": "Present",
+      "summary": "Mechanism and actuation design of a steerable robotic guidewire (paper prepared for IJRR).",
+      "highlights": [
+        "Contributed to a modified COAST robotic guidewire enabling active stiffness control for steering and quick-connect usability in minimally invasive cardiovascular interventions.",
+        "Managed the electrical development of the actuation system (PCB and circuit design) and developed an analog force sensor for precise robotic actuation and sensing."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "position": "Project Leader — Surgical Navigation System",
+      "company": "Brain-robot Rehabilitation Lab, Southern University of Science and Technology",
+      "startDate": "Feb 2023",
+      "endDate": "Jun 2024",
+      "summary": "Hardware/software co-design of a surgical navigation system.",
+      "highlights": [
+        "Co-designed hardware and software, including circuit design to integrate microcontroller and sensors, C embedded programming, and real-time tracking feedback through Unity.",
+        "Validated effectiveness (validity and reliability) against an optical system and a robot arm."
+      ]
+    },
+    {
+      "position": "Visiting Student — IMU Movement Analysis",
+      "company": "Intelligent Heart Technology Lab, KTH Royal Institute of Technology",
+      "startDate": "Oct 2023",
+      "endDate": "Jan 2024",
+      "summary": "Movement analysis using IMU sensors and sensor fusion.",
+      "highlights": [
+        "Investigated the relationship between movement and cardiovascular function through gait parameters and heart rate.",
+        "Deployed a Kalman filter for orientation estimation, calibrated IMU angles, and extracted gait parameters and center of mass."
+      ]
+    },
+    {
+      "position": "Project Leader — Motion Capture for Rehabilitation",
+      "company": "Brain-robot Rehabilitation Lab, Southern University of Science and Technology",
+      "startDate": "Apr 2022",
+      "endDate": "May 2024",
+      "summary": "Deep-learning-enhanced UWB-IMU motion capture system.",
+      "highlights": [
+        "Integrated UWB technology and IMU to build a motion capture system for human motion recovery.",
+        "Developed Unity visualization and Python signal transmission, and applied deep learning for pose reconstruction.",
+        "Evaluated system effectiveness on healthy subjects during rehabilitation exercises."
+      ]
+    },
+    {
+      "position": "Project Assistant — Center of Mass Estimation",
+      "company": "Brain-robot Rehabilitation Lab, Southern University of Science and Technology",
+      "startDate": "Oct 2022",
+      "endDate": "Aug 2023",
+      "summary": "Center of mass estimation for rehabilitation assessment.",
+      "highlights": [
+        "Used IMU-based motion capture and developed an OpenSim-based algorithm to estimate the 3D center of mass.",
+        "Analyzed center-of-mass trajectories to extract motion features and perform rehabilitation assessments."
+      ]
+    },
+    {
+      "position": "Research Assistant",
+      "company": "Dept. of Orthopedics, First People's Hospital, Shenzhen",
+      "startDate": "Jun 2023",
+      "endDate": "Aug 2023",
+      "summary": "Clinical evaluation of medical measurement devices for orthopedic surgery.",
+      "highlights": [
+        "Investigated suitable medical measurement devices to support orthopedic surgeries.",
+        "Performed clinical validation in the operating room and evaluated device functionality and reliability."
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "Georgia Institute of Technology, Atlanta, USA",
+      "area": "M.S. in Bioengineering (ECE)",
+      "studyType": "Master of Science",
+      "startDate": "Aug 2024",
+      "endDate": "Present",
+      "gpa": "4.00/4.00",
+      "courses": [
+        "Digital Control System",
+        "Finite Element Analysis"
+      ]
+    },
+    {
+      "institution": "Southern University of Science and Technology, Shenzhen, China",
+      "area": "B.S. in Intelligent Medical Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "Aug 2020",
+      "endDate": "Jun 2024",
+      "gpa": "3.82/4.00 (Major-related: 3.88/4.00)",
+      "courses": [
+        "Medical Robotics",
+        "Signals and Systems",
+        "Digital Signal Processing",
+        "Medical Imaging",
+        "Machine Learning",
+        "Neural Engineering",
+        "Brain-Computer Interface"
+      ]
+    },
+    {
+      "institution": "KTH Royal Institute of Technology, Stockholm, Sweden",
+      "area": "Exchange Student, Electrical Engineering and Computer Science",
+      "studyType": "Exchange",
+      "startDate": "Sep 2023",
+      "endDate": "Jan 2024",
+      "gpa": null,
+      "courses": [
+        "Principles of Wireless Sensor Networks",
+        "Social Robotics"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Laboratory",
+      "keywords": ["FEM analysis", "3D printing", "PCB design", "Laser cutting", "Circuit analysis", "Motion capture"]
+    },
+    {
+      "name": "Programming",
+      "keywords": ["Python (data analysis, PyTorch)", "C (embedded systems)", "MATLAB", "Simulink", "Rust", "Java"]
+    },
+    {
+      "name": "Software",
+      "keywords": ["ANSYS", "OpenSim", "SolidWorks", "Arduino", "EasyEDA/Altium", "Unity", "Blender"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Git", "Neovim", "Docker", "Jupyter", "VS Code", "Adobe Photoshop", "Final Cut Pro", "Microsoft Office"]
+    }
+  ],
+  "languages": [
+    { "language": "Chinese", "fluency": "Native speaker" },
+    { "language": "English", "fluency": "Proficient" },
+    { "language": "Japanese", "fluency": "Elementary" },
+    { "language": "French", "fluency": "Elementary" }
+  ],
+  "interests": [
+    {
+      "name": "Medical & Bio-Robotics",
+      "keywords": ["Surgical robots", "Wearable & rehabilitation robotics", "Soft robotics", "Data-driven robotic control"]
+    },
+    {
+      "name": "Medical Devices & Digital Health",
+      "keywords": ["Wearable/portable devices", "Surgical navigation", "Tele-rehabilitation"]
+    },
+    {
+      "name": "Biomechanics & Physiological Signals",
+      "keywords": ["Gait & locomotion analysis", "Motion tracking", "Multi-modal sensing & analysis"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Design and Modeling of a Polymer-based Hydraulic Continuum Robot for Minimal Invasive Surgery",
+      "publisher": "International Symposium on Medical Robotics (ISMR) — Accepted; Best Student Paper Award Finalist",
+      "releaseDate": "2026-02-01",
+      "website": "https://chenyugu-cgu.github.io/publication/2025-11-01-hydro",
+      "summary": "A 2.14 mm-OD, MRI-compatible hydraulic continuum robot for minimally invasive surgery, with a Preisach hysteresis model (2.26 deg RMSE) and a 58.8% reduction in twisting, demonstrated in a 2D aortic-arch phantom."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "A Portable Inertial Navigation System for Total Hip Arthroplasty Targeting Direct Anterior Approach",
+      "publisher": "IEEE Transactions on Instrumentation and Measurement (IF: 5.9)",
+      "releaseDate": "2025-03-06",
+      "website": "https://doi.org/10.1109/TIM.2025.3548784",
+      "summary": "A wireless, radiation-free IMU-based navigation system quantifying acetabular cup orientation for the direct anterior approach, achieving 1.24 deg (RA) and 1.89 deg (RI) RMSE with CC > 0.995."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "IMU-based motion capture system for rehabilitation applications: A systematic review",
+      "publisher": "Biomimetic Intelligence and Robotics — Annual Best Paper Award (IF: 5.4)",
+      "releaseDate": "2023-02-27",
+      "website": "https://doi.org/10.1016/j.birob.2023.100097",
+      "summary": "A systematic review of 65 studies on IMU-based motion capture systems for rehabilitation, covering applications, sensor configurations, and future directions."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "A joint replacement simulation device and a joint replacement simulation method (China CN118634071A)",
+      "publisher": "Patent — China National Intellectual Property Administration",
+      "releaseDate": "2024-09-13",
+      "website": "",
+      "summary": "Inventors: Guangheng Li, Mingming Zhang, Yangyi Yu, Chenyu Gu. Filed July 9, 2024; issued September 13, 2024."
+    },
+    {
+      "name": "Human motion capture method, system and storage medium (China CN118870291A)",
+      "publisher": "Patent — China National Intellectual Property Administration",
+      "releaseDate": "2024-10-29",
+      "website": "",
+      "summary": "Inventors: Mingming Zhang, Chenyu Gu. Filed July 9, 2024; issued October 29, 2024."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Machine Learning (CS 7641)",
+      "institution": "Georgia Institute of Technology, College of Computing",
+      "date": "Aug 2025 – May 2026",
+      "role": "Graduate Teaching Assistant",
+      "description": "Held weekly office hours and review sessions on supervised/unsupervised learning, reinforcement learning, and optimization; graded homework, projects, and exams for 300+ graduate students."
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }
