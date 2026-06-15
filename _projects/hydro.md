@@ -88,7 +88,7 @@ To demonstrate clinical relevance, the robot was navigated through a **2D aortic
 </div>
 
 ## Publication
-This work was submitted at the **2026 International Symposium on Medical Robotics (ISMR)**.
+This work was accepted at the **2026 International Symposium on Medical Robotics (ISMR)** and recognized as a **Best Student Paper Award Finalist**.
 
 **Citation:**
 > **C. Gu**, T. A. Brumfiel, N. Malhotra, and J. P. Desai, "Design and Modeling of a Polymer-based Hydraulic Continuum Robot for Minimal Invasive Surgery," in *2026 International Symposium on Medical Robotics (ISMR)*, Atlanta, GA, USA, 2026.
