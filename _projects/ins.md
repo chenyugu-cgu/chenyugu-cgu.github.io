@@ -4,8 +4,8 @@ excerpt: "A wireless, high-precision inertial navigation system designed for the
 permalink: /projects/ins
 collection: projects
 published: true
+order: 3
 venue: "IEEE Transactions on Instrumentation and Measurement"
-# date: 2025-03-06
 ---
 
 ## Overview
@@ -110,4 +110,4 @@ This work was funded by **Shenzhen People Hospital with $15,000 USD**.
 **Citation:**
 > **C. Gu**, Y. Yu, X. He, L. Zhang, Z. Xi, Y. Liu, G. Li, and M. Zhang, "A Portable Inertial Navigation System for Total Hip Arthroplasty Targeting Direct Anterior Approach," in *IEEE Transactions on Instrumentation and Measurement*, vol. 74, 2025.
 
-[Download Paper (PDF)](/files/papers/2025_IEEE_TIM_INS_THA.pdf){: .btn .btn--info}
+[Read the paper (IEEE Xplore)](https://doi.org/10.1109/TIM.2025.3548784){: .btn .btn--info}

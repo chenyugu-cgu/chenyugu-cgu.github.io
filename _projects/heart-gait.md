@@ -4,7 +4,7 @@ excerpt: "Investigating the physiological synergy between the cardiac and locomo
 permalink: /projects/heart-gait
 collection: projects
 published: true
-# date: 2024-01-08
+order: 5
 ---
 
 ## Overview

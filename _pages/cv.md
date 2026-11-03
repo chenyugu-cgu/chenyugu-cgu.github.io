@@ -9,18 +9,27 @@ redirect_from:
 
 {% include base_path %}
 
+[Download a PDF version of my CV]({{ base_path }}/files/Chenyu_Gu_CV.pdf)
+
 ## Research Interests
 
 **Medical & Bio-Robotics**
-- Surgical robots, wearable and rehabilitation robotics, soft robotics, data-driven robotic control.
+- Surgical robots, continuum and soft robotics, wearable and rehabilitation robotics, data-driven robotic control.
+
+**Neuromodulation & Neural Engineering**
+- Spinal cord stimulation, neurophysiological assessment, restoring motor function after injury.
 
 **Medical Devices & Digital Health**
 - Wearable/portable devices, surgical navigation, tele-rehabilitation.
 
 **Biomechanics & Physiological Signals**
-- Gait and locomotion analysis, motion tracking, multi-modal sensing and analysis.
+- Gait and locomotion analysis, motion tracking, multi-modal EMG/IMU sensing and analysis.
 
 ## Education
+
+**Washington University in St. Louis** — Saint Louis, United States  
+*Ph.D. in Biomedical Engineering* (Aug 2026 – Present)  
+- Advisor: Dr. Ismael Seanez
 
 **Georgia Institute of Technology** — Atlanta, United States  
 *M.S. in Bioengineering (ECE); GPA: 4.00/4.00* (Aug 2024 – May 2026)  
@@ -41,6 +50,7 @@ redirect_from:
 
 ## Publications & Patents
 
+- T. A. Brumfiel, R. Konda, **C. Gu**, and J. P. Desai, “Design and Modeling of a Modified COAST Guidewire Robot with a Concentric Push-Pull Mechanism,” *npj Robotics*. *(Accepted)*
 - C. Gu, T. A. Brumfiel, N. Malhotra, and J. P. Desai, “Design and Modeling of a Polymer-based Hydraulic Continuum Robot for Minimal Invasive Surgery,” *International Symposium on Medical Robotics (ISMR)*, 2026. *(Best Student Paper Award)*
 - Chenyu Gu, Weicong Lin, Xinyi He, Lei Zhang, Mingming Zhang, “IMU-based motion capture system for rehabilitation applications: A systematic review,” *Biomimetic Intelligence and Robotics*, vol. 3, no. 2, p. 100097, 2023. DOI: 10.1016/j.birob.2023.100097. *(Annual Best Paper Award; IF: 5.4)*
 - Chenyu Gu, Yangyi Yu, Xinyi He, Lei Zhang, Zhen Xi, Yudong Liu, Guangheng Li, and Mingming Zhang, “A Portable Inertial Navigation System for Total Hip Arthroplasty Targeting Direct Anterior Approach,” *IEEE Transactions on Instrumentation and Measurement*, doi: 10.1109/TIM.2025.3548784. *(IF: 5.9)*
@@ -49,8 +59,16 @@ redirect_from:
 
 ## Research Experience
 
+**Spatiotemporal control of spinal cord stimulation** — Saint Louis, United States  
+*Project Leader, Seanez Lab* (Aug 2026 – Present)  
+*Skills: Human Study, Physiological Signal Processing*
+- Lead clinical protocol execution across 16 chronic spinal cord injury participants to evaluate multielectrode transcutaneous spinal cord stimulation arrays, optimizing spatial positioning to increase targeted joint torque.
+- Developed frequency-modulated software to evaluate posterior root-muscle reflexes via post-activation depression while monitoring real-time autonomic nociception and pain profiles.
+- Integrated a 16-channel wireless EMG system and a Biodex isokinetic dynamometer to synchronize high-density neurophysiological, torque, and 3D kinematic data.
+- Implemented linear mixed-effects models within a 15-session crossover study design to analyze repeated-measures biomechanical outcomes and muscle recruitment selectivity.
+
 **Design, modeling, and control of a hydraulically actuated robot** — Atlanta, United States  
-*Project Leader, RoboMed Lab* (Oct 2024 – Present)  
+*Project Leader, RoboMed Lab* (Oct 2024 – May 2026)  
 *Skills: CAD Modeling, Robotics Modeling & Control*
 - Develop and manufacture a polymer-based hydraulic robotic system for non-conductive, MRI safe environment.
 - Formulate the physical model for the hydraulic robot and refine it with a data-driven hysteresis model.
@@ -58,7 +76,7 @@ redirect_from:
 - Conduct experiments to characterize and validate the system, and demonstrate it under a vascular model.
 
 **Mechanism and actuation design of COAST Guidewire Robot** — Atlanta, United States  
-*Project Assistant, RoboMed Lab* (Jul 2025 – Present)  
+*Project Assistant, RoboMed Lab* (Jul 2025 – Mar 2026)  
 *Skills: Circuit & PCB Design*
 - Contribute to a modified COAST robotic guidewire enabling active stiffness control to enhance steering and quick-connect usability in minimally invasive cardiovascular interventions. *(Paper prepared for IJRR)*
 - Manage electrical development of the actuation system (PCB and circuit design) and develop an analog force sensor to enable precise robotic actuation and sensing.
@@ -129,21 +147,3 @@ redirect_from:
 
 **Georgia Tech CEISMC Summer Program Leader** (Jul 2025)
 - Guided and supervised K–12 students on campus and introduced them to college study and research exposure.
-
-<!-- Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->

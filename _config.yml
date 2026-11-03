@@ -27,9 +27,9 @@ author:
   avatar           : "profile-chenyu-resized.png"
   name             : "Chenyu Gu"
   pronouns         : "he/him"
-  bio              : "An engineering student with a deep fascination for medical robotics and technology."
-  location         : "Atlanta, US"
-  employer         : "Georgia Institute of Technology"
+  bio              : "Ph.D. student in Biomedical Engineering working at the intersection of medical robotics, neuromodulation, and wearable sensing."
+  location         : "St. Louis, US"
+  employer         : "Washington University in St. Louis"
   uri              : # URL
   email            : "jokerchyen@gmail.com" 
 
@@ -97,7 +97,7 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : true      #change to true to add link to talkmap on talks page
+talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:

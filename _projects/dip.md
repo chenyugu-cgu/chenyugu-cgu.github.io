@@ -4,8 +4,8 @@ excerpt: "A full-scene motion capture solution fusing Ultra-Wideband (UWB) posit
 permalink: /projects/dip
 collection: projects
 published: true
+order: 4
 # venue: "Undergraduate Innovation Training Program (National Level)"
-# date: 2024-04-25
 ---
 
 ## Overview

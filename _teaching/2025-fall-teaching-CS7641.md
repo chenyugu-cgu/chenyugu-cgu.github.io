@@ -12,4 +12,6 @@ location: "Atlanta, United States"
 *Machine Learning (CS 7641) — Fall 2025*   -->
 
 - Held weekly office hours and review sessions to clarify concepts in **supervised/unsupervised learning**, **reinforcement learning**, and **optimization**.  
-- Graded homework assignments, projects, and exams for over **300 graduate students**.  
+- Graded homework assignments, projects, and exams for over **300 graduate students**.
+
+*Served as a teaching assistant for this course from August 2025 through May 2026.*  

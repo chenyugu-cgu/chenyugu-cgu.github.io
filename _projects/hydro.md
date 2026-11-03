@@ -4,8 +4,8 @@ excerpt: "A 2.14 mm OD hydraulically actuated soft robot designed for minimally 
 permalink: /projects/hydro
 collection: projects
 published: true
+order: 2
 # venue: "2026 International Symposium on Medical Robotics (ISMR)"
-# date: 2026-04-01
 ---
 
 ## Overview
@@ -93,4 +93,4 @@ This work was presented at the **2026 International Symposium on Medical Robotic
 **Citation:**
 > **C. Gu**, T. A. Brumfiel, N. Malhotra, and J. P. Desai, "Design and Modeling of a Polymer-based Hydraulic Continuum Robot for Minimal Invasive Surgery," in *2026 International Symposium on Medical Robotics (ISMR)*, Atlanta, GA, USA, 2026.
 
-[Download Paper (PDF)](/files/papers/2026_ISMR_Hydro_Robot.pdf){: .btn .btn--info}
+[Publication details](/publication/2025-11-01-hydro){: .btn .btn--info}

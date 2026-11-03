@@ -4,7 +4,7 @@ excerpt: "A flying robotic system designed to deliver immediate, high-quality Ca
 permalink: /projects/cpr-robot
 collection: projects
 published: true
-# date: 2024-06-01
+order: 6
 ---
 
 ## Overview

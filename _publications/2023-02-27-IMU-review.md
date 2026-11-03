@@ -6,9 +6,7 @@ permalink: /publication/2023-02-27-IMU-review
 excerpt: ''
 date: 2023-02-27
 venue: 'Biomimetic Intelligence and Robotics'
-# slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1016/j.birob.2023.100097'
-# bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: 'Chenyu Gu, Weicong Lin, Xinyi He, Lei Zhang, Mingming Zhang, &quot;IMU-based motion capture system for rehabilitation applications: A systematic review,&quot; <i>Biomimetic Intelligence and Robotics</i>, vol. 3, no. 2, p. 100097, 2023.'
 ---
 ![The proportion of each classification.](https://ars.els-cdn.com/content/image/1-s2.0-S2667379723000116-gr2.jpg)

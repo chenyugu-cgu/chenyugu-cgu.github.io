@@ -247,6 +247,12 @@
     white-space: nowrap;
   }
 
+  // Long affiliations/locations are plain text, not links: let them wrap
+  // instead of overflowing the sidebar and being visually clipped.
+  li.author__desktop {
+    white-space: normal;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;
